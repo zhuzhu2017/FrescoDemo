@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_in_xml"
+                style="@style/common_btn"
+                android:text="在XML中使用" />
+
+            <Button
+                android:id="@+id/btn_in_java"
+                style="@style/common_btn"
+                android:text="在java中使用" />
+
+            <Button
+                android:id="@+id/btn_progressbar"
+                style="@style/common_btn"
+                android:text="进度条" />
+
+            <Button
+                android:id="@+id/btn_scale"
+                style="@style/common_btn"
+                android:text="缩放" />
+
+            <Button
+                android:id="@+id/btn_circle"
+                style="@style/common_btn"
+                android:text="圆角和圆圈" />
+
+            <Button
+                android:id="@+id/btn_controllerbuilder"
+                style="@style/common_btn"
+                android:text="ControllerBuilder使用" />
+
+            <Button
+                android:id="@+id/btn_jpeg"
+                style="@style/common_btn"
+                android:text="渐进式JPEG使用" />
+
+            <Button
+                android:id="@+id/btn_animation"
+                style="@style/common_btn"
+                android:text="动画支持" />
+
+            <Button
+                android:id="@+id/btn_multi_pic"
+                style="@style/common_btn"
+                android:text="多图请求及图片复用" />
+
+            <Button
+                android:id="@+id/btn_download_listener"
+                style="@style/common_btn"
+                android:text="监听下载事件" />
+
+            <Button
+                android:id="@+id/btn_scale_rotate"
+                style="@style/common_btn"
+                android:text="缩放和旋转图片" />
+
+            <Button
+                android:id="@+id/btn_modify_pic"
+                style="@style/common_btn"
+                android:text="修改图片" />
+
+            <Button
+                android:id="@+id/btn_image_request"
+                style="@style/common_btn"
+                android:text="图片请求（Image Request）" />
+
+            <Button
+                android:id="@+id/btn_custom_view"
+                style="@style/common_btn"
+                android:layout_marginBottom="20dp"
+                android:text="自定义View" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

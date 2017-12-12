@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, BasicUseActivity.class);
                 break;
             case R.id.btn_drawee:   //drawee使用
+                intent = new Intent(this, DraweeActivity.class);
                 break;
             case R.id.btn_image_pipeline:   //image pipeline使用
                 break;

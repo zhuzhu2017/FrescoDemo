@@ -33,7 +33,7 @@ dependencies {
     implementation 'com.facebook.fresco:webpsupport:0.12.0'
     // 仅支持 WebP 静态图，需要添加
     implementation 'com.facebook.fresco:webpsupport:0.12.0'
-    /*引入Butternife*/
+    /*引入Butterknife*/
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }

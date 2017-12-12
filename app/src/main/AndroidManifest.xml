@@ -20,6 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.BasicUseActivity"/>
+        <activity android:name=".activity.DraweeActivity"/>
+        <activity android:name=".activity.draweeui.DraweeInXmlActivity"/>
     </application>
 
 </manifest>

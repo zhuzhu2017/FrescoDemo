@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <!--图片显示布局-->
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:layout_width="276dp"
+                android:layout_height="120dp"
+                fresco:placeholderImage="@mipmap/ic_launcher" />
+
+            <!--动态变更布局-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!--按钮-->
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/drawer_content"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>
